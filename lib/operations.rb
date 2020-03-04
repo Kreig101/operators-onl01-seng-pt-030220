@@ -1,8 +1,11 @@
 require 'pry'
 
 def unsafe?(speed)
-#speed >= 60 ? true : false
-speed = 40 or 60 
+
+if speed >= 60 ? true : false
+elsif speed.between?
+
+end
 end
 
 
